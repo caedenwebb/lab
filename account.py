@@ -1,5 +1,5 @@
 class Account:
-    def __init__(self, name: str) -> None:
+    def __init__(self, name: str) -> Noe:
         '''
         Creates a new account for money to be deposited or withdrawn. Balance starts at $0.
         :param name: This is the name on the account.
