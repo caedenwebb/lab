@@ -3,6 +3,7 @@ class Account:
         '''
         Creates a new account for money to be deposited or withdrawn. Balance starts at $0.
         :param name: This is the name on the account.
+        :return None
         '''
 
         self.__account_name = name
@@ -33,12 +34,12 @@ class Account:
     def get_balance(self) -> int:
         '''
         This function returns the balance of the account.
-        :return: the account balance
+        :return: Account Balance
         '''
         return self.__account_balance
     def get_name(self) -> str:
         '''
         This function returns the name of the account
-        :return: the name of the account
+        :return: Name of the Account
         '''
         return self.__account_name
